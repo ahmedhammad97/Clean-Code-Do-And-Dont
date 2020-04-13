@@ -39,7 +39,7 @@ With that said, I will be so glad if anybody finds this to be helpful.
 - Wrap multiple arguments into one object if possible
 - Encapsulate multiple conditions into one check function
 - Avoid side effects inside functions (wrap both in a parent function instead)
-- Avoid output arguments (let the output object changes itself)
+- Avoid output arguments (let the output object change itself)
 
 <br />
 
@@ -77,12 +77,12 @@ With that said, I will be so glad if anybody finds this to be helpful.
 <br />
 
 - Design small classes
-- Use a single responsibility per class
+- Use single responsibility per class
 - Never allow base classes to depend on their derivatives
 
 <br />
 
-- Separate startup processes (ex. object constructions) from runtime logic
+- Separate startup processes (ex. object constructions) from run-time logic
 - Avoid "lazy initialization" unless used by dependency injection
 - Use domain specific language suitable for the system
 - Move object creation responsibility to a dedicated object (ex. DI)
@@ -96,7 +96,7 @@ With that said, I will be so glad if anybody finds this to be helpful.
 
 - Use concurrency code only when there is a lot of waiting time
 - Separate (Plug away) concurrency code from other code
-- Avoid threads collision by avoiding shared data in the first -place if possible.
+- Avoid threads collision by avoiding shared data in the first place if possible.
 - Avoid using concurrency when you cannot afford major changes in design
 - Use only one method on a shared object
 - Keep synchronized sections small
@@ -109,4 +109,4 @@ With that said, I will be so glad if anybody finds this to be helpful.
 
 **End**
 
-All further contributions are welcomed.
+Any further contributions are welcomed.
