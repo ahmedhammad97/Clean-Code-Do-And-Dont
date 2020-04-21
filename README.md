@@ -47,7 +47,6 @@ With that said, I will be so glad if anybody finds this to be helpful.
 - Avoid inaccurate comments
 - Remove commented-out code
 - Never use redundant comments
-- Isolate code entities from each other by limiting what each knows about the others
 
 <br />
 
@@ -79,6 +78,7 @@ With that said, I will be so glad if anybody finds this to be helpful.
 - Design small classes
 - Use single responsibility per class
 - Never allow base classes to depend on their derivatives
+- Isolate code entities from each other by limiting what each knows about the others
 
 <br />
 
