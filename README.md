@@ -59,7 +59,7 @@ With that said, I will be so glad if anybody finds this to be helpful.
 - Use objects when you need to hide data and expose functions
 - Use data structures when you need to expose data
 - Use procedural code when you need a lot of functions, few data structures
-- Use object oriented code when you need a lot of functions, few functions
+- Use object oriented code when you need a lot of data structures, few functions
 
 <br />
 
@@ -96,7 +96,7 @@ With that said, I will be so glad if anybody finds this to be helpful.
 
 - Use concurrency code only when there is a lot of waiting time
 - Separate (Plug away) concurrency code from other code
-- Avoid threads collision by avoiding shared data in the first place if possible.
+- Avoid threads collision by avoiding shared data in the first place if possible
 - Avoid using concurrency when you cannot afford major changes in design
 - Use only one method on a shared object
 - Keep synchronized sections small
@@ -109,4 +109,4 @@ With that said, I will be so glad if anybody finds this to be helpful.
 
 **End**
 
-Any further contributions are welcomed.
+Any further contribution is welcomed.
