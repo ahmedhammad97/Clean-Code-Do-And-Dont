@@ -110,3 +110,7 @@ With that said, I will be so glad if anybody finds this to be helpful.
 **End**
 
 Any further contribution is welcomed.
+
+## <a name="more">More Reading Notes</a>
+- [Software Architecture Patterns](https://github.com/ahmedhammad97/Software-Architecture-Patterns-Notes)
+- [Designing Data Intensive Applications](https://github.com/ahmedhammad97/Designing-Data-Intensive-Applications-Notes)
